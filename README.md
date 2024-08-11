@@ -20,3 +20,5 @@
 | _PascalCase_ | FunctionName() \| CustomType \| CustomInterface |
 | _camelCase_  | fileName \| variableName                        |
 | _kebab_case_ | folder_name                                     |
+
+# Note: In package.json remove --passWithNoTests once added your test file

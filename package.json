@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "test": "jest --watchAll=false --coverage",
+    "test": "jest --watchAll=false --coverage --passWithNoTests",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
     "lint": "eslint src --max-warnings 0",
