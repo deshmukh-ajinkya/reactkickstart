@@ -4,15 +4,15 @@
 
 # Features
 
-| Name          | Description                            |
-| ------------- | -------------------------------------- |
-| _routing_     | token based client side routing        |
-| _redux_       | global state management                |
-| _material ui_ | css framework                          |
-| _eslint_      | maintain code consistency              |
-| _prettier_    | consistent code formattng              |
-| _jest_        | unit testing for early bug fix         |
-| _husky_       | all above quality checks before commit |
+| Name          | Description                                                             |
+| ------------- | ----------------------------------------------------------------------- |
+| _routing_     | token based client side routing                                         |
+| _redux_       | global state management                                                 |
+| _material ui_ | css framework                                                           |
+| _eslint_      | maintain code consistency                                               |
+| _prettier_    | consistent code formattng                                               |
+| _jest_        | unit testing for early bug fix                                          |
+| _husky_       | quality checks before commit eslint prettier unit-test error free build |
 
 # Follow Standard Practices To Maintain Project
 
