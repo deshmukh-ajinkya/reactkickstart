@@ -1,17 +1,18 @@
 # ReactKickStart
 
-- codebase for start with your new react project
+- codebase for start with your new react project with pre-configured necessary boilerplate code
 
 # Features
 
-| Name       | Description                            |
-| ---------- | -------------------------------------- |
-| _routing_  | token based client side routing        |
-| _redux_    | global state management                |
-| _eslint_   | maintain code consistency              |
-| _prettier_ | consistent code formattng              |
-| _jest_     | unit testing for early bug fix         |
-| _husky_    | all above quality checks before commit |
+| Name          | Description                            |
+| ------------- | -------------------------------------- |
+| _routing_     | token based client side routing        |
+| _redux_       | global state management                |
+| _material ui_ | css framework                          |
+| _eslint_      | maintain code consistency              |
+| _prettier_    | consistent code formattng              |
+| _jest_        | unit testing for early bug fix         |
+| _husky_       | all above quality checks before commit |
 
 # Follow Standard Practices To Maintain Project
 
@@ -22,3 +23,17 @@
 | _kebab_case_ | folder_name                                     |
 
 ##### In package.json remove --passWithNoTests once added your test file
+
+### Routing Guide
+
+_src/routes/private.routes.tsx_
+
+- go to this path
+- add component which you want to accessible after user authenticated
+- private component will be accessible only when token set in local storage
+- you can customize token logic in _src/routes/private.routes.tsx_ with "token"
+
+_src/routes/public.routes.tsx_
+
+- go to this path
+- add component which you want to accessible before user authenticated
