@@ -1,0 +1,13 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+npm run lint
+npm run format
+npm run test
+npm run build
+
+# check if dist folder exist
+if [ -d ./dist ]; then
+    echo ""
+    echo "Build successful ✅"
+fi
