@@ -24,7 +24,7 @@
 
 ##### In package.json remove --passWithNoTests once added your test file
 
-### Routing Guide
+# Routing Guide
 
 _src/routes/private.routes.tsx_
 
@@ -37,3 +37,14 @@ _src/routes/public.routes.tsx_
 
 - go to this path
 - add component which you want to accessible before user authenticated
+
+# Husky Guide
+
+_.husky/commit-msg_
+
+- default commit message format : git commit -m 'keyword: your message here'
+- "keyword" followed by "colon" followed by "space" followed by "your message"
+- modify COMMITFORMAT keywords which you want to follow by fellow developer in your team
+
+_.husky/pre-commit_
+customize scripts that you want to validate on pre-commit
