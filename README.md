@@ -48,3 +48,5 @@ _.husky/commit-msg_
 
 _.husky/pre-commit_
 customize scripts that you want to validate on pre-commit
+
+![alt text](<Screenshot from 2024-08-11 15-44-37.png>)
